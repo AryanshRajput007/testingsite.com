@@ -1,0 +1,173 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  .hero-section {
+    background-image: url('Code.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-description {
+    font-size: 24px;
+  }
+
+  .vertical-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    width: 13%;
+    background-color: #04AA6D;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    height: calc(100% - 40px);
+    overflow: auto;
+  }
+
+  .vertical-nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .vertical-nav li a.active {
+    background-color: #038557;
+  }
+
+  .vertical-nav li a:hover:not(.active) {
+    background-color: #555;
+  }
+
+  .horizontal-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .horizontal-nav li {
+    display: inline-block;
+  }
+
+  .horizontal-nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .horizontal-nav li a.active {
+    background-color: transparent;
+  }
+
+  .horizontal-nav li a:hover:not(.active) {
+    background-color: #555;
+  }
+
+  .content {
+    margin-top: 40px;
+    margin-left: 15%; /* Add left margin to account for the vertical navigation bar width */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .content h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+
+  .content h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .content p{
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .content ol{
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .content ul{
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .code-block {
+    margin-top: 60px; /* Add a margin to create space between code block and horizontal nav bar */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+
+  .code-text {
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+  }
+
+  .copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .copy-button:hover {
+    background-color: #038557;
+  }
+
+  @media (max-width: 768px) {
+    .vertical-nav {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    .content {
+      margin-left: 0;
+    }
+  }
+
+  .imgmain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
